@@ -2,8 +2,7 @@ const cache_name = "app_cache-v1";
 const cache_files_list = [
   "./",
   "index.html",
-  "./logo.png",
-  "./style.css"
+  "./logo.png"
 ];
 
 self.addEventListener("install", e => {
